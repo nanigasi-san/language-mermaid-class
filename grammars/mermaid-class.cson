@@ -43,7 +43,7 @@
 
     # inheritance arrow
     {
-      "match": "(\\w*)\\s?(<\\|--)\\s?(\\w*)"
+      "match": "(\\w*)\\s?(<\\|--|\\*--|O--|-->|--|\\.\\.>|\\.\\.\\|>|\\.\\.)\\s?(\\w*)"
       "captures": {
         "1": {
           "name": "entity.name.function.mermaid"
