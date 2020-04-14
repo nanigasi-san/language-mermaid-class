@@ -1,3 +1,6 @@
 # MermaidClass language package
+language support for mermaid(only class)
 
-A short description of your language package.
+# screenshots
+![image1](docs/images/image1.png)
+![image2](docs/images/image2.png)
