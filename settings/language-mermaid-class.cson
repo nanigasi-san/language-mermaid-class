@@ -6,4 +6,4 @@
     'commentStart': '@@'
     'softTabs': true
     'tabLength': 4
-    'increaseIndentPattern': '\\s*(classDiagram|class \\s*{)$'
+    'increaseIndentPattern': '^classDiagram$'
