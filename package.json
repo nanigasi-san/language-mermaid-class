@@ -1,0 +1,15 @@
+{
+  "name": "language-mermaid-class",
+  "version": "0.0.0",
+  "description": "language support for mermaid(only class)",
+  "keywords": [
+    "language",
+    "grammar",
+    "mermaid"
+  ],
+  "repository": "https://github.com/nanigasi-san/language-mermaid-class",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
