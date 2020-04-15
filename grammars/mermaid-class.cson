@@ -57,9 +57,25 @@
       }
     }
 
-    # member
+    # member1
     {
       "match": "(\\+|-|#|~)(\\w*~?\\w*~?)\\s(\\w*)"
+      "captures": {
+        "1": {
+          "name": "keyword.operator.math.mermaid"
+        }
+        "2": {
+          "name": "keyword.type.mermaid"
+        }
+        "3": {
+          "name": "variable"
+        }
+      }
+    }
+
+    # member2
+    {
+      "match": "(\\+|-|#|~)(\\w*\\[\\w*\\])\\s(\\w*)"
       "captures": {
         "1": {
           "name": "keyword.operator.math.mermaid"
