@@ -59,7 +59,7 @@
 
     # member
     {
-      "match": "(\\+|-)(\\w*~?\\w*~?)\\s(\\w*)"
+      "match": "(\\+|-|#|~)(\\w*~?\\w*~?)\\s(\\w*)"
       "captures": {
         "1": {
           "name": "keyword.operator.math.mermaid"
@@ -75,7 +75,7 @@
 
     # method
     {
-      "match": "(\\+|-)(\\w*\\(\\))"
+      "match": "(\\+|-|#|~)(\\w*\\(\\))"
       "captures": {
         "1": {
           "name": "keyword.operator.math.mermaid"
