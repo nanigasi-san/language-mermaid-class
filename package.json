@@ -1,6 +1,6 @@
 {
   "name": "language-mermaid-class",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "language support for mermaid(only class)",
   "keywords": [
     "language",
